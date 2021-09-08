@@ -8,7 +8,7 @@
 | ------ | ------ | ------ | ------ | ------ |
 | inputType | String | 输入类型 | 否 | 'number'（'number'/'password'） |
 | inputNumber | Number | 验证码长度 | 否 | 6 |
-| completed | event | 输入框结果回调 | - | - |
+| completed | event | 结果回调，表示输入完成 | - | - |
 
 ## 示例
 
