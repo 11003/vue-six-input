@@ -6,24 +6,14 @@
 
 | 参数 | 类型 | 备注 | 必须 | 默认值 |
 | ------ | ------ | ------ | ------ | ------ |
-| inputType | String | 输入类型 | 否 | 'number'（'number'/'password'） |
-| inputNumber | Number | 验证码长度 | 否 | 6 |
 | completed | event | 结果回调，表示输入完成 | - | - |
 
 ## 示例
 
-### number类型
-
-![](https://gitee.com/liuhaier/images/raw/master/img/six-input-number.gif)
+![](https://gitee.com/liuhaier/images/raw/master/img/six-input-password.gif)
 ```html
  <NumberVerify @completed="completed"/>
- ```
 
-### password类型
-
-![](https://gitee.com/liuhaier/images/raw/master/img/six-input-password.gif)
- ```html
- <NumberVerify input-type="password" @completed="completed"/>
  ```
 
 ### 回调结果
