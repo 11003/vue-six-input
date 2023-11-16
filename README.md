@@ -10,7 +10,8 @@
 
 ## 示例
 
-![](https://gitee.com/liuhaier/images/raw/master/img/six-input-password.gif)
+![six-input-password.gif](https://s2.loli.net/2023/11/16/spEue8z5Clr6tvD.gif)
+
 ```html
  <NumberVerify @completed="completed"/>
 
